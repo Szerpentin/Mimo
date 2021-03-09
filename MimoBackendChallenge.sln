@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MimoBackendChallenge.API", "MimoBackendChallenge.API\MimoBackendChallenge.API.csproj", "{263C4D5E-ECB3-4E85-8ACB-1F8A08FA57FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MimoBackendChallenge.Database", "MimoBackendChallenge.Database\MimoBackendChallenge.Database.csproj", "{73100687-E600-47BE-8C25-5C3221416ACD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MimoBackendChallenge.DAL", "MimoBackendChallenge.DAL\MimoBackendChallenge.DAL.csproj", "{77DE5048-3381-43AE-A695-EFBBF9EED0A4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MimoBackendChallenge.BL", "MimoBackendChallenge.BL\MimoBackendChallenge.BL.csproj", "{2F3CC6E6-84D9-46F6-BC3C-88E51EAEA36E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MimoBackendChallenge.BL.Models", "MimoBackendChallenge.BL.Models\MimoBackendChallenge.BL.Models.csproj", "{45149C2D-287B-4C17-A811-8EFFD6F3428D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MimoBackendChallenge.UnitTests", "MimoBackendChallenge.UnitTests\MimoBackendChallenge.UnitTests.csproj", "{DB8E0794-CD3E-46D6-B381-0DB117A40A0D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{263C4D5E-ECB3-4E85-8ACB-1F8A08FA57FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{263C4D5E-ECB3-4E85-8ACB-1F8A08FA57FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{263C4D5E-ECB3-4E85-8ACB-1F8A08FA57FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{263C4D5E-ECB3-4E85-8ACB-1F8A08FA57FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73100687-E600-47BE-8C25-5C3221416ACD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73100687-E600-47BE-8C25-5C3221416ACD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73100687-E600-47BE-8C25-5C3221416ACD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73100687-E600-47BE-8C25-5C3221416ACD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77DE5048-3381-43AE-A695-EFBBF9EED0A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77DE5048-3381-43AE-A695-EFBBF9EED0A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77DE5048-3381-43AE-A695-EFBBF9EED0A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77DE5048-3381-43AE-A695-EFBBF9EED0A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F3CC6E6-84D9-46F6-BC3C-88E51EAEA36E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F3CC6E6-84D9-46F6-BC3C-88E51EAEA36E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F3CC6E6-84D9-46F6-BC3C-88E51EAEA36E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F3CC6E6-84D9-46F6-BC3C-88E51EAEA36E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45149C2D-287B-4C17-A811-8EFFD6F3428D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45149C2D-287B-4C17-A811-8EFFD6F3428D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45149C2D-287B-4C17-A811-8EFFD6F3428D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45149C2D-287B-4C17-A811-8EFFD6F3428D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DB8E0794-CD3E-46D6-B381-0DB117A40A0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DB8E0794-CD3E-46D6-B381-0DB117A40A0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DB8E0794-CD3E-46D6-B381-0DB117A40A0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DB8E0794-CD3E-46D6-B381-0DB117A40A0D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F739E0E-3C2E-427F-A4A3-51CFFED4DE0D}
+	EndGlobalSection
+EndGlobal
